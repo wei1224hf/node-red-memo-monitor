@@ -1,8 +1,8 @@
 {
   "name": "node-red-memo-monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node-red-memo-monitor, change a request , then waiting for specific response to change, reset the request after 2 seconds ",
-  "main": "example.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
   "license": "ISC",
   "node-red": {
     "nodes": {
-        "example-node": "example.js"
+        "memo-monitor": "main.js"
     }
 }  
 }
